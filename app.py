@@ -3,7 +3,7 @@ import requests
 import json
 from config import keys, TOKEN
 
-#TOKEN = "6214650782:AAFVA745pv48-PMLieFWLtYVronDMPE7ucA"
+
 bot = telebot.TeleBot(TOKEN)
 bot.polling(none_stop=True)
 
